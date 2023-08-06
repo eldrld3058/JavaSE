@@ -11,7 +11,7 @@ import java.util.Scanner;
  * 깃허브 테스트 중입니다!!!!
  * 
  */
-public class ScannerEx {
+public class ScannerEX {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String name, address;	// 문자열 값을 담는 변수
@@ -19,11 +19,11 @@ public class ScannerEx {
 		double weight;			// 실수 값을 담는 변수
 		
 		System.out.println("이름, 주소, 나이, 체중을 빈칸으로 구분하여 순서대로 입력하세요.");
-		//김태호 부천 39 78
-		name = scan.next();			// name = "김태호"
-		address = scan.next();		// address = "부천"
-		age = scan.nextInt();		// age = 39
-		weight = scan.nextDouble();	// weight = 78.0;
+		//김민진 서울 26 
+		name = scan.next();			// name = "김민진"
+		address = scan.next();		// address = "서울"
+		age = scan.nextInt();		// age = 26
+		weight = scan.nextDouble();	// 
 		
 		System.out.printf("당신의 이름은 %s 입니다.\n", name);
 		System.out.printf("당신의 주소는 %s 입니다.\n", address);
