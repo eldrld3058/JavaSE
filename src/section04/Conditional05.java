@@ -27,5 +27,9 @@ public class Conditional05 {
 		  System.out.println("환불불가, 관리자에게 문의하세요.");
 		  System.out.println("환불상태코드 : "+ rtCd);
 	  }
+	  if(false || true || false) {
+		  System.out.println("환불불가, 관리자에게 문의하세요.");
+		  System.out.println("환불상태코드 : "+ rtCd);
+	  }
   }
 }
