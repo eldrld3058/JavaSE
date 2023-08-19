@@ -2,10 +2,24 @@ package section05;
 
 public class LoopHomeWork {
   public static void main(String[] args) {
-
-	  int num = 0;
-	  for(int i=0;i<10;i++) {
-		   System.out.println("ix");
-	   }
+        System.out.println("   ☆");
+	    for(int i=0; i<7; i++) {
+	    	
+	    	for(int j=0; j<7; j++) {
+	    		if(i <= 7/2) {
+	    			if(j < 3 - i) {
+	    				System.out.print(" ");
+	    			}else if(j > 3 + i){
+		    			System.out.print(" ");
+		    		}else {
+			    		System.out.print("*");
+			    	}
+	    		}
+	    		}
+	    	 System.out.println();
+	    }
+	    System.out.println("merry christmas!!");
+	    
+	   
 }
 }
